@@ -11,11 +11,11 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">About</Nav.Link>
+            <Nav.Link href="#About">About</Nav.Link>
             <NavDropdown title="Case Studies" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Responsive Redesign</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Development</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Third Thing</NavDropdown.Item>
+              <NavDropdown.Item href="#Responsive-Redesign">Responsive Redesign</NavDropdown.Item>
+              <NavDropdown.Item href="#Development">Development</NavDropdown.Item>
+              <NavDropdown.Item href="#Third-Thing">Third Thing</NavDropdown.Item>
               {/* <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 Separated link
