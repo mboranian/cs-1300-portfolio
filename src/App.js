@@ -15,9 +15,7 @@ function App() {
         <BasicExample />
       </div>
       <div id='rest'>
-        <div id='animation'>
-        <Outline />
-        </div>
+        {/* <div id='Background'></div> */}
         <div id='Centerpiece'>
           <h1 id='title'>
             cs 1300<br />
