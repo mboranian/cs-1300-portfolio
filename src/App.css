@@ -13,11 +13,7 @@ html {
 
 
 .App {
-  /* background-color: #3993DD; */
   height: 100vh;
-  /* background-image: url("../public/images/Background2.jpeg");
-  background-size:cover;
-  background-attachment: fixed; */
 }
 
 
@@ -31,7 +27,7 @@ p {
 #title{
   position: relative;
   bottom: 80px;
-  font-size: 200px;
+  font-size: 15vw;
   font-family: "Jacques Francois Shadow", serif;
   font-weight: 400;
   font-style: normal;

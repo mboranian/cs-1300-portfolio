@@ -13,7 +13,7 @@ function BasicExample() {
           <Nav className="me-auto">
             <Nav.Link href="#About">About</Nav.Link>
             <NavDropdown title="Case Studies" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#Responsive-Redesign">Responsive Redesign</NavDropdown.Item>
+              <NavDropdown.Item href="#Redesign">Responsive Redesign</NavDropdown.Item>
               <NavDropdown.Item href="#Development">Development</NavDropdown.Item>
               <NavDropdown.Item href="#Third-Thing">Third Thing</NavDropdown.Item>
               {/* <NavDropdown.Divider />
