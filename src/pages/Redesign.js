@@ -1,10 +1,14 @@
+import { Link } from "react-router-dom";
+import '../App.css';
+
 
 function Redesign() {
 
     return (
-        <h1>
-            Redesign
-        </h1>
+        <div className='Case-Study' id='Responsive-Redesign'>
+            <h1 className='Case-Header'>Responsive Redesign</h1>
+            <Link to='/'>Home</Link>
+          </div>
     )
 
 }

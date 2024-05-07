@@ -1,7 +1,6 @@
 
-import BasicExample from '../components/navbar';
+import Navigation from '../components/navbar';
 import '../App.css';
-import { Link } from 'react-router-dom';
 
 
 function Homepage() {
@@ -9,7 +8,7 @@ function Homepage() {
     return (
         <div className="App" id='home'>
         <div id='Nav-Bar'>
-          <BasicExample />
+          <Navigation />
         </div>
         <div id='rest'>
           <div id='Centerpiece'>
@@ -19,7 +18,7 @@ function Homepage() {
             </h1>
           </div>
 
-          <div id='About'>
+          <div id="About">
             <h1 className='Case-Header' id='About-Header'>About</h1>
             <div id='About-Body'>
               <img src='images/IMG_2792.jpeg' alt='me' id='Headshot' />
@@ -37,16 +36,6 @@ function Homepage() {
               </p>
             </div>
 
-          </div>
-
-          <div className='Case-Study' id='Redesign'>
-            <h1 className='Case-Header'>Responsive Redesign</h1>
-          </div>
-          <div className='Case-Study' id='Development'>
-            <h1 className='Case-Header'>Development</h1>
-          </div>
-          <div className='Case-Study' id='Third-Thing'>
-            <h1 className='Case-Header'>Third Thing</h1>
           </div>
         </div>
       </div>

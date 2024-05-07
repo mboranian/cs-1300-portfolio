@@ -4,8 +4,8 @@ import '../App.css';
 function Third() {
 
     return (
-        <div className='Case-Study' id='Development-Section'>
-            <h1 className='Case-Header'>Development</h1>
+        <div className='Case-Study' id='Third-Thing'>
+            <h1 className='Case-Header'>Third Thing</h1>
             <Link to='/'>Home</Link>
           </div>
     )
