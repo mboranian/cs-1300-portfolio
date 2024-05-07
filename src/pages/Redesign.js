@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import '../App.css';
+import { BsArrowLeft } from "react-icons/bs";
 
 
 function Redesign() {
@@ -7,8 +8,12 @@ function Redesign() {
     return (
         <div className='Case-Study' id='Responsive-Redesign'>
             <h1 className='Case-Header'>Responsive Redesign</h1>
-            <Link to='/'>Home</Link>
-          </div>
+            <Link to='/'>
+                <button class="homebutton returnbutton">
+                    <BsArrowLeft />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home
+                </button>
+            </Link>
+        </div>
     )
 
 }
