@@ -27,11 +27,11 @@ function Navigation() {
             <Nav.Link href='#Projects' onClick={handleNavClick}>Projects</Nav.Link>
             <Nav.Link href='#About' onClick={handleNavClick}>About</Nav.Link>
             <Nav.Link href='#Contact' onClick={handleNavClick}>Contact</Nav.Link>
-            <NavDropdown title="Case Studies" id="basic-nav-dropdown">
+            {/* <NavDropdown title="Case Studies" id="basic-nav-dropdown">
               <NavDropdown.Item href='#responsiveredesign'>Responsive Redesign</NavDropdown.Item>
               <NavDropdown.Item href="#development">Development</NavDropdown.Item>
               <NavDropdown.Item href="#portfolio">Third Thing</NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
         </Navbar.Collapse>
       </Container>
