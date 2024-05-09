@@ -8,7 +8,6 @@ html {
 }
 
 
-
 p {
   font-size: xx-large;
   padding-left: 70px;
@@ -37,6 +36,7 @@ p {
 
 #Centerpiece {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100vw;
@@ -44,6 +44,12 @@ p {
   text-align: center;
   position: relative;
   top: 63px;
+}
+
+#downarrow{
+  font-size: 60px;
+  position: absolute;
+  bottom: 10%;
 }
 
 .Case-Study {
@@ -68,11 +74,22 @@ p {
 #About{
   padding-bottom: 50px;
   height: 100vh;
+  position: relative;
 }
 
 #About-Body{
   display: flex;
   flex-direction: row;
+}
+
+#arrow2div{
+  display: flex;
+  justify-content: center;
+}
+#downarrow2{
+  font-size: 60px;
+  position: absolute;
+  bottom: 3.5%;
 }
 
 #Headshot {
@@ -87,6 +104,22 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+#uparrow{
+  font-size: 60px;
+  position: absolute;
+  bottom: 3%;
+}
+
+.arrow{
+  transition: .3s;
+}
+
+#backtotop{
+  position: absolute;
+  bottom: 2.5%;
 }
 
 .projectlink{
@@ -101,6 +134,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 #ProjectsHeader{
   margin-bottom: 8vh;
@@ -112,22 +146,33 @@ p {
   justify-content: space-evenly;
   align-items: center;
 }
+.CardHeader{
+height: fit-content;
+}
 .projectcard{
   background-color: #282c34;
   color: lightgray;
-  width: 25vw;
+  width: 30vw;
   height: 55vh;
   border-radius: 10px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   transition: .3s;
+  padding: 1%
 }
 .projectcard:hover{
   background-color: #2f4167;
+  /* box-shadow: #422800 4px 4px 0 0; */
 }
 .projectbutton{
-  
   box-shadow: rgba(255, 255, 255, 0.55) 4px 4px 0 0;
+}
+
+#downarrow3{
+  font-size: 60px;
+  position: absolute;
+  bottom: 4%;
 }
 
 
@@ -214,21 +259,4 @@ p {
   bottom: 12vh;
   height: fit-content;
   width: fit-content;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }

@@ -1,11 +1,29 @@
 
 import Navigation from '../components/navbar';
 import '../App.css';
-import { BsEnvelopeFill, BsLinkedin, BsGithub } from "react-icons/bs";
+import { BsEnvelopeFill, BsLinkedin, BsGithub, BsChevronCompactDown, BsChevronCompactUp} from "react-icons/bs";
 import Card from '../components/card';
 
 
 function Homepage() {
+
+    const handleClick = (event, section) => {
+        event.preventDefault(); // Prevent the default anchor behavior
+        const targetId = section // Remove the '#' from href
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+    function toTop(event) {
+        event.preventDefault(); // Prevent the default anchor behavior
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+    
 
     return (
         <div className="App" id='home'>
@@ -18,6 +36,7 @@ function Homepage() {
                         cs 1300<br />
                         Portfolio
                     </h1>
+                    <BsChevronCompactDown id="downarrow" className="arrow" onClick={(event) => handleClick(event, "About")} />
                 </div>
                 <div id="About">
                     <h1 className='Case-Header' id='About-Header'>About</h1>
@@ -36,15 +55,18 @@ function Homepage() {
                             est laborum.
                         </p>
                     </div>
-
+                    <div id='arrow2div'>
+                        <BsChevronCompactDown id="downarrow2" className="arrow" onClick={(event) => handleClick(event, "Projects")} />
+                    </div>
                 </div>
                 <div id="Projects">
                     <h1 className='Case-Header' id='ProjectsHeader'>Projects</h1>
                     <div id="projectsbody">
-                        <Card name="Responsive Redesign" path="/responsiveredesign"/>
-                        <Card name="Development" path="/development"/>
-                        <Card name="Portfolio Work" path="/portfolio"/>
+                        <Card name="Responsive Redesign" path="/responsiveredesign" />
+                        <Card name="Development" path="/development" />
+                        <Card name="Portfolio Work" path="/portfolio" />
                     </div>
+                    <BsChevronCompactDown id="downarrow3" className="arrow" onClick={(event) => handleClick(event, "Contact")} />
                 </div>
                 <div id="Contact">
                     <h1 className='Case-Header' id='Contact-Header'>Contact</h1>
@@ -53,6 +75,8 @@ function Homepage() {
                         <BsGithub className='contactlogo' />
                         <BsLinkedin className='contactlogo' />
                     </div>
+                    <BsChevronCompactUp id='uparrow' className="arrow" onClick={toTop}/>
+                    <h6 id='backtotop'>Back to top</h6>
                 </div>
             </div>
         </div>

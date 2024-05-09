@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import '../App.css';
 import { BsArrowLeft } from "react-icons/bs";
 
-
 function Redesign() {
 
     return (
