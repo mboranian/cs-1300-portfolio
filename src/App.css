@@ -3,11 +3,6 @@ html {
  }
 
 
-.App {
-  height: 100vh;
-}
-
-
 p {
   font-size: xx-large;
   padding-left: 70px;
@@ -50,20 +45,6 @@ p {
   font-size: 60px;
   position: absolute;
   bottom: 10%;
-}
-
-.Case-Study {
-  height: 100vh;
-  padding-bottom: 50px;
-}
-
-.Case-Header{
-  text-align: center;
-  font-family: "Yeseva One", serif;
-  font-weight: 400;
-  font-style: normal;
-  padding-top: 90px;
-  padding-bottom: 30px;
 }
 
 #About-Header{
@@ -126,9 +107,8 @@ p {
   height: fit-content;
   width: fit-content;
   position: relative;
-  top: 80%;
+  
 }
-
 #Projects{
   height: 100vh;
   display: flex;
@@ -148,6 +128,7 @@ p {
 }
 .CardHeader{
 height: fit-content;
+font-family: "Yeseva One", serif;
 }
 .projectcard{
   background-color: #282c34;
@@ -159,7 +140,8 @@ height: fit-content;
   flex-direction: column;
   align-items: center;
   transition: .3s;
-  padding: 1%
+  padding: 1%;
+  gap: 2%;
 }
 .projectcard:hover{
   background-color: #2f4167;
@@ -167,6 +149,13 @@ height: fit-content;
 }
 .projectbutton{
   box-shadow: rgba(255, 255, 255, 0.55) 4px 4px 0 0;
+}
+.cardpic{
+  width: 80%;
+}
+.projectblurb{
+  font-size: 150%;
+  text-align:center;
 }
 
 #downarrow3{
@@ -221,11 +210,10 @@ height: fit-content;
 
 
 #Responsive-Redesign {
-  background-color: #29E7CD;
   display: flex;
   flex-direction: column;
   background-image: url("../public/images/greenbackground.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -255,8 +243,45 @@ height: fit-content;
 
 .returnlink{
   position: relative;
-  left: 5vw;
-  bottom: 12vh;
+  left: 4vw;
+  bottom: 9vh;
   height: fit-content;
   width: fit-content;
+}
+
+
+.Case-Header{
+  text-align: center;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 90px;
+}
+
+.casestudybody{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sectionHeader{
+  text-align:left;
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 40px;
+}
+
+.casestudysection{
+  display: flex;
+  margin-bottom: 7%;
+
+}
+
+.casestudytext{
+  margin-top: 5%;
+  text-align: center;
+}
+
+.casestudyimage{
+  width: 50%;
 }

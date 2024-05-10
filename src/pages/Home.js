@@ -1,7 +1,7 @@
 
 import Navigation from '../components/navbar';
 import '../App.css';
-import { BsEnvelopeFill, BsLinkedin, BsGithub, BsChevronCompactDown, BsChevronCompactUp} from "react-icons/bs";
+import { BsEnvelopeFill, BsLinkedin, BsGithub, BsChevronCompactDown, BsChevronCompactUp } from "react-icons/bs";
 import Card from '../components/card';
 
 
@@ -23,7 +23,7 @@ function Homepage() {
             behavior: 'smooth'
         });
     };
-    
+
 
     return (
         <div className="App" id='home'>
@@ -62,20 +62,47 @@ function Homepage() {
                 <div id="Projects">
                     <h1 className='Case-Header' id='ProjectsHeader'>Projects</h1>
                     <div id="projectsbody">
-                        <Card name="Responsive Redesign" path="/responsiveredesign" />
-                        <Card name="Development" path="/development" />
-                        <Card name="Portfolio Work" path="/portfolio" />
+                        <Card
+                            name="Responsive Redesign"
+                            path="/responsiveredesign"
+                            blurb=
+                            "A simple and modern redesign of a local 
+                            business's website using html and css"
+                            pic="images/RedesignScreenshot.jpeg"
+                        />
+                        <Card
+                            name="Development"
+                            path="/development"
+                            blurb=
+                            "An untuitive and user flriendly implementation
+                            of an online Shoe Store using React"
+                            pic="images/DevelopmentScreenshot.jpeg"
+                        />
+                        <Card
+                            name="Portfolio Work"
+                            path="/portfolio"
+                            blurb=
+                            "The creation of this very portfolio!
+                            Using React to show my syle as a programmer"       
+                            pic="images/RedesignScreenshot.jpeg"
+                        />
                     </div>
                     <BsChevronCompactDown id="downarrow3" className="arrow" onClick={(event) => handleClick(event, "Contact")} />
                 </div>
                 <div id="Contact">
                     <h1 className='Case-Header' id='Contact-Header'>Contact</h1>
                     <div id="ContactLogos">
+                        <a href="mailto: matthewboranian@gmail.com">
                         <BsEnvelopeFill className="contactlogo" />
+                        </a>
+                        <a href='https://github.com/mboranian' target='blank'>
                         <BsGithub className='contactlogo' />
+                        </a>
+                        <a href='https://www.linkedin.com/in/matthew-boranian-149a54274/' target='blank'>
                         <BsLinkedin className='contactlogo' />
+                        </a>
                     </div>
-                    <BsChevronCompactUp id='uparrow' className="arrow" onClick={toTop}/>
+                    <BsChevronCompactUp id='uparrow' className="arrow" onClick={toTop} />
                     <h6 id='backtotop'>Back to top</h6>
                 </div>
             </div>
