@@ -47,8 +47,8 @@ function Homepage() {
                         <p>
                             Matthew Boranian is recent graduate from Brown Univeristy in Providence, Rhode Island with 
                             a Bachelor of Science in Computer Science.<br/><br/>
-                            He has experience as both a front-end and back-end development having focused in Computer Systems
-                            and Software Principle during his time at Brown.<br/><br/>
+                            He has experience as both a front-end and back-end developer, having focused in Computer Systems
+                            and Software Principles during his time at Brown.<br/><br/>
                             He is currently enjoying working on his design skills, developing his technique and personal style
                             to create beautiful, user-friendly experiences.
                         </p>

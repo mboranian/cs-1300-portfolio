@@ -223,7 +223,7 @@ p {
 #Responsive-Redesign {
   display: flex;
   flex-direction: column;
-  background-image: url("../public/images/greenbackground.jpeg");
+  background-image: url("../public/images/redbackground.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -242,7 +242,7 @@ p {
   background-color: #E0ACD5;
   display: flex;
   flex-direction: column;
-  background-image: url("../public/images/redbackground.jpeg");
+  background-image: url("../public/images/greenbackground.jpeg");
   background-size: cover;
   background-attachment: fixed;
 }
