@@ -1,7 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../App.css'
 import '../pages/Home'
 
@@ -24,7 +23,7 @@ function Navigation() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href='#Projects' onClick={handleNavClick}>Projects</Nav.Link>
+            <Nav.Link href='#Projects' onClick={handleNavClick}>Case Studies</Nav.Link>
             <Nav.Link href='#About' onClick={handleNavClick}>About</Nav.Link>
             <Nav.Link href='#Contact' onClick={handleNavClick}>Contact</Nav.Link>
             {/* <NavDropdown title="Case Studies" id="basic-nav-dropdown">

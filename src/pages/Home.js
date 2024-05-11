@@ -60,7 +60,7 @@ function Homepage() {
                     </div>
                 </div>
                 <div id="Projects">
-                    <h1 className='Case-Header' id='ProjectsHeader'>Projects</h1>
+                    <h1 className='Case-Header' id='ProjectsHeader'>Case Studies</h1>
                     <div id="projectsbody">
                         <Card
                             name="Responsive Redesign"

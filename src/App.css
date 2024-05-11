@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
- }
+}
 
 
 p {
@@ -10,7 +10,7 @@ p {
 }
 
 
-#title{
+#title {
   position: relative;
   bottom: 80px;
   font-size: 15vw;
@@ -24,7 +24,7 @@ p {
   display: flex;
   flex-direction: column;
   background-image: url("../public/images/Background2.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
 
 }
@@ -41,33 +41,34 @@ p {
   top: 63px;
 }
 
-#downarrow{
+#downarrow {
   font-size: 60px;
   position: absolute;
   bottom: 10%;
 }
 
-#About-Header{
+#About-Header {
   text-align: left !important;
   padding-left: 90px;
 }
 
-#About{
+#About {
   padding-bottom: 50px;
   height: 100vh;
   position: relative;
 }
 
-#About-Body{
+#About-Body {
   display: flex;
   flex-direction: row;
 }
 
-#arrow2div{
+#arrow2div {
   display: flex;
   justify-content: center;
 }
-#downarrow2{
+
+#downarrow2 {
   font-size: 60px;
   position: absolute;
   bottom: 3.5%;
@@ -79,7 +80,7 @@ p {
   display: block;
 }
 
-#Contact{
+#Contact {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -88,49 +89,55 @@ p {
   position: relative;
 }
 
-#uparrow{
+#uparrow {
   font-size: 60px;
   position: absolute;
   bottom: 3%;
 }
 
-.arrow{
+.arrow {
   transition: .3s;
 }
 
-#backtotop{
+#backtotop {
   position: absolute;
   bottom: 2.5%;
 }
 
-.projectlink{
+.projectlink {
   height: fit-content;
   width: fit-content;
   position: relative;
-  
+
 }
-#Projects{
+
+#Projects {
   height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
 }
-#ProjectsHeader{
+
+#ProjectsHeader {
   margin-bottom: 8vh;
 }
-#projectsbody{
+
+#projectsbody {
   display: flex;
+  flex-direction: row;
   justify-content: end;
   width: 100vw;
   justify-content: space-evenly;
   align-items: center;
 }
-.CardHeader{
-height: fit-content;
-font-family: "Yeseva One", serif;
+
+.CardHeader {
+  height: fit-content;
+  font-family: "Yeseva One", serif;
 }
-.projectcard{
+
+.projectcard {
   background-color: #282c34;
   color: lightgray;
   width: 30vw;
@@ -143,29 +150,33 @@ font-family: "Yeseva One", serif;
   padding: 1%;
   gap: 2%;
 }
-.projectcard:hover{
+
+.projectcard:hover {
   background-color: #2f4167;
   /* box-shadow: #422800 4px 4px 0 0; */
 }
-.projectbutton{
+
+.projectbutton {
   box-shadow: rgba(255, 255, 255, 0.55) 4px 4px 0 0;
 }
-.cardpic{
+
+.cardpic {
   width: 80%;
 }
-.projectblurb{
+
+.projectblurb {
   font-size: 150%;
-  text-align:center;
+  text-align: center;
 }
 
-#downarrow3{
+#downarrow3 {
   font-size: 60px;
   position: absolute;
   bottom: 4%;
 }
 
 
-.contactlogo{
+.contactlogo {
   font-size: 50px;
   margin: 20px
 }
@@ -189,7 +200,7 @@ font-family: "Yeseva One", serif;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
+
 }
 
 .homebutton:hover {
@@ -199,13 +210,6 @@ font-family: "Yeseva One", serif;
 .homebutton:active {
   box-shadow: #422800 2px 2px 0 0;
   transform: translate(2px, 2px);
-}
-
-@media (min-width: 768px) {
-  .homebutton {
-    min-width: 120px;
-    padding: 0 25px;
-  }
 }
 
 
@@ -218,13 +222,12 @@ font-family: "Yeseva One", serif;
 }
 
 #Development-Section {
-  background-color: #EFE9AE;
   display: flex;
   flex-direction: column;
   background-image: url("../public/images/yellowbackground2.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
-  
+
 
 }
 
@@ -233,15 +236,15 @@ font-family: "Yeseva One", serif;
   display: flex;
   flex-direction: column;
   background-image: url("../public/images/redbackground.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-attachment: fixed;
 }
 
-.returnbutton{
+.returnbutton {
   box-shadow: #422800 4px 4px 0 0;
 }
 
-.returnlink{
+.returnlink {
   position: relative;
   left: 4vw;
   bottom: 9vh;
@@ -250,7 +253,7 @@ font-family: "Yeseva One", serif;
 }
 
 
-.Case-Header{
+.Case-Header {
   text-align: center;
   font-family: "Yeseva One", serif;
   font-weight: 400;
@@ -258,30 +261,93 @@ font-family: "Yeseva One", serif;
   padding-top: 90px;
 }
 
-.casestudybody{
+.casestudybody {
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.sectionHeader{
-  text-align:left;
+.sectionHeader {
+  text-align: left;
   font-family: "Yeseva One", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
   margin-bottom: 40px;
 }
 
-.casestudysection{
+.casestudysection {
   display: flex;
   margin-bottom: 7%;
 
 }
 
-.casestudytext{
-  margin-top: 5%;
+.casestudytext {
+  margin-top: 4%;
   text-align: center;
 }
 
-.casestudyimage{
-  width: 50%;
+.casestudyimage {
+  width: 45%;
+  border: solid;
+  border-width: 1px;
 }
+
+#solobutton{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width:65%;
+}
+
+
+
+@media screen and (max-width: 700px) {
+  #About-Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #Headshot {
+    width: 20%;
+    display: block;
+  }
+
+  #Projects{
+    height: fit-content;
+  }
+
+  #projectsbody {
+    display: flex;
+    flex-direction: column !important;
+    gap: 20px;
+  }
+
+  .projectcard{
+    width: 70vw;
+  }
+
+  #downarrow3{
+    display: none;
+  }
+
+  .casestudysection {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+    align-items: center;
+  
+  }
+
+  .casestudyimage {
+    width: 90%;
+  }
+
+
+}
+
+/* @media (min-width: 768px) {
+  .homebutton {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+} */
