@@ -113,9 +113,9 @@ function Development() {
                 <div className="casestudysection">
                     <p>
                         Overall this was a huge learning experience for me. It was the first solo React project I'd encountered
-                        in my Computer Science studies, and it proved a challenge. I think the design suffered a little as I stuggled
-                        with the technical aspect of coding functionality into the website, but I'm pleases with the final product.
-                        
+                        in my Computer Science studies, and it proved a challenge. I think the design suffered a little as I struggled
+                        with the technical aspect of coding functionality into the website, but I'm pleased with the final product. I think 
+                        that with my new comfort with React I can create some really great websites in the future.
                     </p>
                 </div>
 

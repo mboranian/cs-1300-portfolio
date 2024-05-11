@@ -33,9 +33,11 @@ function Homepage() {
             <div id='rest'>
                 <div id='Centerpiece'>
                     <h1 id='title'>
-                        cs 1300<br />
-                        Portfolio
+                        Matthew's<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design<br/>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio
                     </h1>
+                    <h6 id='welcome'>Welcome</h6>
                     <BsChevronCompactDown id="downarrow" className="arrow" onClick={(event) => handleClick(event, "About")} />
                 </div>
                 <div id="About">
@@ -43,16 +45,12 @@ function Homepage() {
                     <div id='About-Body'>
                         <img src='images/IMG_2792.jpeg' alt='me' id='Headshot' />
                         <p>
-                            Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt
-                            ut labore et dolore magna aliqua. U
-                            t enim ad minim veniam, quis nostrud
-                            exercitation ullamco laboris nisi ut aliquip
-                            ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse cillum dolore eu
-                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat no
-                            n proident, sunt in culpa qui officia deserunt mollit anim id
-                            est laborum.
+                            Matthew Boranian is recent graduate from Brown Univeristy in Providence, Rhode Island with 
+                            a Bachelor of Science in Computer Science.<br/><br/>
+                            He has experience as both a front-end and back-end development having focused in Computer Systems
+                            and Software Principle during his time at Brown.<br/><br/>
+                            He is currently enjoying working on his design skills, developing his technique and personal style
+                            to create beautiful, user-friendly experiences.
                         </p>
                     </div>
                     <div id='arrow2div'>
@@ -83,8 +81,8 @@ function Homepage() {
                             path="/portfolio"
                             blurb=
                             "The creation of this very portfolio!
-                            Using React to show my syle as a programmer"       
-                            pic="images/RedesignScreenshot.jpeg"
+                            Using React to show my syle as a creator"       
+                            pic="images/portfolioscreenshot.png"
                         />
                     </div>
                     <BsChevronCompactDown id="downarrow3" className="arrow" onClick={(event) => handleClick(event, "Contact")} />

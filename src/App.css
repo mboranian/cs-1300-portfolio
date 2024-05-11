@@ -13,10 +13,16 @@ p {
 #title {
   position: relative;
   bottom: 80px;
-  font-size: 15vw;
+  font-size: 12vw;
   font-family: "Jacques Francois Shadow", serif;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+}
+
+#welcome{
+  font-weight: 800;
+  position: relative;
+  top: 23px;
 }
 
 #rest {
@@ -36,7 +42,7 @@ p {
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  text-align: center;
+  text-align: left;
   position: relative;
   top: 63px;
 }
@@ -102,6 +108,7 @@ p {
 #backtotop {
   position: absolute;
   bottom: 2.5%;
+  font-weight: 800;
 }
 
 .projectlink {
