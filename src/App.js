@@ -8,7 +8,6 @@ import Third from './pages/Third';
 
 function App() {
 
-
   return (
     <Router>
       <Routes>

@@ -28,7 +28,7 @@ function Redesign() {
                             </button>
                         </a>
                     </p>
-                    <img src="images/OriginalCFW.png" className="casestudyimage" />
+                    <img src="images/OriginalCFW.png" className="casestudyimage" alt="Original Campus Fine Wines Website"/>
                 </div>
                 <div className="casestudysection">
                     <p>
@@ -46,10 +46,10 @@ function Redesign() {
                         behind each sketch was the put the stores's product front and center,
                         a thing not done by the original website.
                     </p>
-                    <img src="images/SpeedSketches.PNG" className="casestudyimage" />
+                    <img src="images/SpeedSketches.PNG" className="casestudyimage" alt="initial speed sketches"/>
                 </div>
                 <div className="casestudysection">
-                    <img src="images/FinalSketch.PNG" className="casestudyimage" />
+                    <img src="images/FinalSketch.PNG" className="casestudyimage" alt="Final Sketch before mockups"/>
                     <p className="casestudytext">
                         Next I made a <b>final sketch</b>. This encapulated the basics of all
                         the layout design choices I made. No more dropdown menus that hide the
@@ -64,9 +64,9 @@ function Redesign() {
                         Then it was on to <b>Lo-Fi Mockups</b> which of course lead to <b>Hi-Fi Mockups</b>!
                         <br />
                         <br />
-                        <img src="images/DesktopLoFi.PNG" className="casestudyimage" />
+                        <img src="images/DesktopLoFi.PNG" className="casestudyimage" alt="Lo fi mockup of redesign"/>
                         <BsArrowRight fontSize={100} />
-                        <img src="images/DesktopHiFi.PNG" className="casestudyimage" />
+                        <img src="images/DesktopHiFi.PNG" className="casestudyimage" alt="Hi fi mockup of redesign"/>
                     </p>
                 </div>
                 <h2 className="sectionHeader">The Final Product</h2>
@@ -80,7 +80,7 @@ function Redesign() {
                             </button>
                         </a>
                     </p>
-                    <img src="images/RedesignScreenshot.jpeg" className="casestudyimage" />
+                    <img src="images/RedesignScreenshot.jpeg" className="casestudyimage" alt="Final redesigned page"/>
                 </div>
                 <div className="casestudysection">
                     <p >

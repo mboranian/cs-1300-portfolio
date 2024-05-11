@@ -81,7 +81,8 @@ p {
 }
 
 #Headshot {
-  width: 20%;
+  width: 450px;
+  height: auto;
   margin-left: 4.5%;
   display: block;
 }

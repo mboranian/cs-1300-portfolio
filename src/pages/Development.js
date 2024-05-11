@@ -40,12 +40,12 @@ function Development() {
                         websites all of which implemented the features I was aiming for. The table shows the website
                         names as well as the criteria by which each was judged.
                     </p>
-                    <img src="images/CompAnalysis.png" className="casestudyimage" />
+                    <img src="images/CompAnalysis.png" className="casestudyimage" alt="Competetive Analysis Chart"/>
                 </div>
                 <div className="casestudysection">
-                    <img src="images/coolors.png" className="casestudyimage" />
+                    <img src="images/coolors.png" className="casestudyimage" alt="Screenshot of Coolors.co"/>
                     <div id="solobutton">
-                        <a href="https://mboranian.github.io/cs1300-responsive-redesign/" target="blank">
+                        <a href="https://coolors.co/generate" target="blank">
                             <button class="homebutton returnbutton">
                                 <BsArrowLeft />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check out Coolors.co
                             </button>
@@ -54,18 +54,18 @@ function Development() {
                 </div>
                 <div className="casestudysection">
                     <div id="solobutton">
-                        <a href="https://mboranian.github.io/cs1300-responsive-redesign/" target="blank">
+                        <a href="https://pinterest.com" target="blank">
                             <button class="homebutton returnbutton">
                                 Check out Pinterest&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BsArrowRight />
                             </button>
                         </a>
                     </div>
-                    <img src="images/pinterest.png" className="casestudyimage" />
+                    <img src="images/pinterest.png" className="casestudyimage" alt="Screenshot of Pinterest"/>
                 </div>
                 <div className="casestudysection">
-                    <img src="images/zillow.png" className="casestudyimage" />
+                    <img src="images/zillow.png" className="casestudyimage" alt="Screenshot of Zillow"/>
                     <div id="solobutton">
-                        <a href="https://mboranian.github.io/cs1300-responsive-redesign/" target="blank">
+                        <a href="https://zillow.com" target="blank">
                             <button class="homebutton returnbutton">
                                 <BsArrowLeft />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check out Zillow
                             </button>
@@ -99,7 +99,7 @@ function Development() {
                             </button>
                         </a>
                     </p>
-                    <img src="images/DevelopmentScreenshot.jpeg" className="casestudyimage" />
+                    <img src="images/DevelopmentScreenshot.jpeg" className="casestudyimage" alt="Development project final product"/>
                 </div>
                 <div className="casestudysection">
                 <p>
