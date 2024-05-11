@@ -33,7 +33,7 @@ function Homepage() {
             <div id='rest'>
                 <div id='Centerpiece'>
                     <h1 id='title'>
-                        Matthew's<br/>
+                        Matthw's<br/>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design<br/>
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Portfolio
                     </h1>
